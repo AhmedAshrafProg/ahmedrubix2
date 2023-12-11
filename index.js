@@ -20,7 +20,7 @@ async function fetchFacebookData() {
   try {
     // Example: Fetch data from a specific endpoint
     const response = await axios.get(
-      'https://graph.facebook.com/v13.0/73a00795193c0db7402233162370d998',
+      'https://adsmanager.facebook.com/adsmanager/manage/campaigns?act=396545775179129&business_id=876005783288351&global_scope_id=876005783288351&nav_entry_point=am_local_scope_selector&date=2021-10-15_2023-12-05%2Cmaximum&comparison_date&insights_date=2021-10-15_2023-12-05%2Cmaximum&insights_comparison_date&breakdown_regrouping=1&nav_source=no_referrer',
       {
         headers: { Authorization: `Bearer ${accessToken}` },
       }
